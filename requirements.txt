@@ -4,4 +4,5 @@ firebase-admin
 gunicorn
 python-dotenv
 requests
-gunicorn
+
+gunicorn #(if needed for production)
