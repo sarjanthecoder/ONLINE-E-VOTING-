@@ -9,7 +9,7 @@ from functools import wraps
 
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
-CORS(app)
+CORS(app)#cross origin resources source
 
 # Initialize Firebase - Make sure 'firebase-credentials.json' is in the same directory
 try:
